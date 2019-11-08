@@ -54,7 +54,7 @@ class Model
 
     public function select($fileds)
     {
-        $select = (is_array($fileds)? implode(', ', $fileds): $fileds);
+        $select = (is_array($fileds)? implode(',', $fileds): $fileds);
         $this->select = ($this->select == "*"? $select: $this->select. ', '.$select);
         return $this;
     }
@@ -145,6 +145,67 @@ class Model
         $this->join($table, $field1, $op , $field2 , 'LEFT OUTER');
 
         return $this;
+    }
+
+    public function rightOuterJoin($table, $field1, $op = '', $field2 = '')
+    {
+        $this->join($table, $field1, $op , $field2 , 'RIGHT OUTER');
+
+        return $this;
+    }
+
+    public function where($where, $op = null, $val = null, $type = '', $andOr = 'AND')
+    {
+        if(is_array($where) && !empty($where)){
+            $_where = [];
+            foreach($where as $coloum => $data){
+                $_where[] = $type . $coloum . '=' . $this->escape($data);
+            }
+            $where = implode(' ' . $andOr . ' ', $_where);
+        } else {
+            if(is_null($where) || empty($where)){
+                return $this;
+            }else{
+                if(is_array($op)){
+                    $params = explode('?', $where);
+                    $_where = '';
+                    foreach($params as $key => $value){
+                        if(!empty($value)){
+                            $_where .= $type . $value . (isset($op[$key])? $this->escape($op[$key]): '');
+                        }
+                    }
+                    $where = $_where;
+                }elseif (! in_array($op, $this->op) || $op == false){
+                    $where = $type . $where . ' = ' . $this->escape($op);
+                }else{
+                    $where = $type . $where . ' ' . $op . ' ' . $this->escape($val);
+                }
+            }
+        }
+
+        if($this->grouped){
+            $where = '(' . $where;
+            $this->grouped = false;
+        }
+
+        if(is_null($this->where)){
+            $this->where = $where;
+        }else{
+            $this->where = $this->where . ' ' . $andOr . ' ' . $where;
+        }
+
+        return $this;
+    }
+
+
+
+    public function escape($data)
+    {
+        if($data === null){
+            return 'NULL';
+        }
+
+        return $this->pdo->quote(trim($data));
     }
     /**
      * @return null
