@@ -1,0 +1,15 @@
+{% extends "Base/layout.html"%}
+
+{% block title %}Home{% endblock %}
+
+{% block body%}
+<h1>Welcome {{name}}</h1>
+<p>this is view</p>
+<ul>
+    {% for post in posts %}
+        <h2>{{post.title}}</h2>
+         <p>{{post.content}}</p>
+    {% endfor %}
+</ul>
+{% endblock %}
+
