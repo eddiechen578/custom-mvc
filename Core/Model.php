@@ -30,27 +30,16 @@ class Model
     protected $debug = true;
     protected $transactionCount = 0;
 
+   function __construct($dbname, $username, $password, $host)
+   {
+       try {
+           $this->pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8",
+               $username, $password);
 
-   public function __construct_child()
-    {
-        $this->setDatabase();
-    }
-
-   public function setDatabase()
-    {
-        $host = (isset(Router::$config['DB']['host'])? Router::$config['DB']['host']: 'localhost');
-        $dbname = (isset(Router::$config['DB']['dbname'])? Router::$config['DB']['dbname']: 'udemy');
-        $username = (isset(Router::$config['DB']['username'])? Router::$config['DB']['username']: 'eddie');
-        $password = (isset(Router::$config['DB']['password'])? Router::$config['DB']['password']: '1111');
-        $this->prefix = DB_PREFIX;
-        try {
-          $this->pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8",
-              $username, $password);
-
-        } catch (\PDOException $e){
-            echo $e->getMessage();
-        }
-    }
+       } catch (\PDOException $e){
+           echo $e->getMessage();
+       }
+   }
 
     public function select($fileds)
     {

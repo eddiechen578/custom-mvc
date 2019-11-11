@@ -6,14 +6,14 @@ use Core\Model;
 
 class Post extends Model
 {
-    protected $database = 'posts';
 
     function __construct()
     {
-        parent::__construct_child();
+
     }
 
     public function get(){
+
         $this->select('content')
              ->max('text', 't')
              ->leftOuterJoin('table', 'id1', '=', 'id2');

@@ -2,7 +2,8 @@
     "require": {
         "twig/twig": "^2.0",
         "phpmailer/phpmailer": "~5.2",
-      "ext-gettext": "*"
+      "ext-gettext": "*",
+        "php-di/php-di": "^6.0"
     },
 
     "autoload": {

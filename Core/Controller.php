@@ -13,6 +13,7 @@ abstract class Controller
 
       public function __call($name, $args)
       {
+
           $method = $name.'Action';
           if(method_exists($this, $method)){
                   call_user_func_array([$this, $method], $args);

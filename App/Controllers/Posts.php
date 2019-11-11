@@ -2,23 +2,24 @@
 
 namespace App\Controllers;
 
+use App\Controllers\Admin\Users;
 use Core\View;
 use Core\Controller;
 use App\Models\Post;
 
 class Posts extends Controller {
+    protected $post;
 
-    function __construct()
+    public function __construct(Post $post)
     {
-
+        $this->post = $post;
     }
-
     public function indexAction()
         {
-           $post = new Post();
-
-            echo '<pre>', print_r($post->get(), true), '</pre>';exit;
-//           View::renderTemplate('Home/index.html',[
+            $data = $this->post->get();
+            echo '<pre>', print_r($data, true), '</pre>';exit;
+//           View::renderTemplate('Home/index.html
+//          ',[
 //               "name" => 'Deve',
 //               "posts" => $posts
 //           ]);

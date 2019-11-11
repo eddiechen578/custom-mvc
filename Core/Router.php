@@ -109,24 +109,38 @@ class Router
 
         if($this->match($url))
         {
-
             $controller = $this->params['controller'];
             $controller = $this->convertToStudlyCaps($controller);
-//            $controller = "App\Controllers\\$controller";
             $controller = $this->getNamespace(). $controller;
             if(class_exists($controller))
             {
-                $controller_object = new $controller($this->params);
-
                 $action = $this->params['action'];
                 $action = $this->convertToCamelCase($action);
+                $action = $action.'Action';
 
-                if(is_callable([$controller_object, $action]))
-                {
-                    $controller_object->$action();
-                }else{
-                    echo "method $action (in controller $controller_object) not found.";
+                $containerBuilder = new \DI\ContainerBuilder();
+                $containerBuilder->useAutowiring(true);
+                $containerBuilder->addDefinitions(dirname(__DIR__).'/Config/setting.php');
+                $container = $containerBuilder->build();
+                $controller_object = $container->get($controller);
+
+                if($controller_object->$action()){
+
+                    $container->call([$controller_object, $action]);
                 }
+
+
+//                $controller_object = new $controller($this->params);
+//
+//                $action = $this->params['action'];
+//                $action = $this->convertToCamelCase($action);
+//
+//                if(is_callable([$controller_object, $action]))
+//                {
+//                    $controller_object->$action();
+//                }else{
+//                    echo "method $action (in controller $controller_object) not found.";
+//                }
             }else{
                 echo "controller $controller not found.";
             }

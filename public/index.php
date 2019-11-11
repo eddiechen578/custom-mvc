@@ -1,6 +1,5 @@
 <?php
 require_once dirname(__DIR__).'/vendor/autoload.php';
-require_once dirname(__DIR__).'/Config/database.php';
 //spl_autoload_register(function($class){
 //    $root = dirname(__DIR__);
 //    $files = $root.'/'.str_replace('\\', '/', $class).'.php';
@@ -13,7 +12,6 @@ require_once dirname(__DIR__).'/Config/database.php';
 
 $router = new Core\Router();
 
-$router::$config = $CONFIG;
 // Add the routes
 $router->add('', ['controller' => 'Home', 'action' => 'index']);
 $router->add('{controller}/{action}');
