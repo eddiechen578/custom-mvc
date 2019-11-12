@@ -6,30 +6,17 @@ use Core\Model;
 
 class Post extends Model
 {
-
-    function __construct()
+    protected $db;
+    function __construct(Model $model)
     {
-
+        $this->db = $model;
+        $this->db->from = 'posts';
     }
-
-    public function get(){
-
-        $this->select('content')
-             ->max('text', 't')
-             ->leftOuterJoin('table', 'id1', '=', 'id2');
-        return $this->getselect();
+    public function fetchAllData()
+    {
+        $data = $this->db->select('title, content')
+                     ->orderBy('id', 'desc')
+                     ->getAll();
+        return $data;
     }
-//    public static function getAll()
-//    {
-//
-//       try{
-//            $db = static::getDB();
-//           $stmt = $db->query('SELECT id, title, content FROM posts');
-//           $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-//
-//            return $result;
-//        }catch (PDOException $e) {
-//       echo $e->getMessage();
-//      }
-//    }
 }

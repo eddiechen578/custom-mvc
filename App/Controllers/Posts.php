@@ -16,13 +16,12 @@ class Posts extends Controller {
     }
     public function indexAction()
         {
-            $data = $this->post->get();
-            echo '<pre>', print_r($data, true), '</pre>';exit;
-//           View::renderTemplate('Home/index.html
-//          ',[
-//               "name" => 'Deve',
-//               "posts" => $posts
-//           ]);
+           $datas = $this->post->fetchAllData();
+
+           View::renderTemplate('Home/index.html',[
+               "name" => 'Deve',
+               "posts" => $datas
+           ]);
         }
 
         public function editAction()
