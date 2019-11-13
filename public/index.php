@@ -9,6 +9,9 @@ require_once dirname(__DIR__).'/vendor/autoload.php';
 //        require  $root.'/'.str_replace('\\', '/', $class).'.php';
 //    }
 //});
+error_reporting(E_ALL);
+set_error_handler('Core\Error::errorHandler');
+set_exception_handler('Core\Error::exceptionHandler');
 
 $router = new Core\Router();
 

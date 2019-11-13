@@ -2,21 +2,28 @@
 
 namespace App\Models;
 
+use App\DB;
 use Core\Model;
 
 class Post extends Model
 {
-    protected $db;
-    function __construct(Model $model)
+    function __construct()
     {
-        $this->db = $model;
-        $this->db->from = 'posts';
+        parent::__construct(DB::DB_NAME, DB::DB_USER, DB::DB_PASSWORD, DB::DB_HOST);
+        $this->from = 'posts';
+
     }
     public function fetchAllData()
     {
-        $data = $this->db->select('title, content')
+        $data = $this->select('title, content')
                      ->orderBy('id', 'desc')
                      ->getAll();
         return $data;
+    }
+
+    public function updateData($id, array $data)
+    {
+        $this->where('id', $id)
+             ->update($data);
     }
 }

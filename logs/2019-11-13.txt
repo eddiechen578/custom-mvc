@@ -1,0 +1,16 @@
+[13-Nov-2019 05:31:29 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'controller App\Controllers\Pollsts not found.' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('pollsts/index')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line145
+[13-Nov-2019 05:31:29 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line148
+[13-Nov-2019 05:32:19 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'controller App\Controllers\Pollsts not found.' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('pollsts/index')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line145
+[13-Nov-2019 05:32:19 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line148

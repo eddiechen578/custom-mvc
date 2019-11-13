@@ -2,6 +2,7 @@
 
 namespace Core;
 
+use mysql_xdevapi\Exception;
 use PDO;
 
 class Model
@@ -33,11 +34,12 @@ class Model
    function __construct($dbname, $username, $password, $host)
    {
        try {
+
            $this->pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8",
                $username, $password);
 
        } catch (\PDOException $e){
-           echo $e->getMessage();
+           throw new \Exception($e->getMessage());
        }
 
        return $this->pdo;
@@ -892,7 +894,7 @@ class Model
     protected function reset()
     {
         $this->select = '*';
-        $this->from = null;
+//        $this->from = null;
         $this->where = null;
         $this->limit = null;
         $this->offset = null;
@@ -921,6 +923,7 @@ class Model
                 ? PDO::FETCH_ASSOC
                 : PDO::FETCH_OBJ);
     }
+
 
     /**
      * @return null

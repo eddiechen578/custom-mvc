@@ -8,25 +8,27 @@ use Core\Controller;
 use App\Models\Post;
 
 class Posts extends Controller {
-    protected $post;
+        protected $post;
 
-    public function __construct(Post $post)
-    {
-        $this->post = $post;
-    }
-    public function indexAction()
+        public function __construct(Post $post)
         {
-           $datas = $this->post->fetchAllData();
+            $this->post = $post;
+        }
+        public function indexAction()
+        {
+            $data = [
+                  'title' => 'update *1',
+                  'content' => 'again again'
+            ];
 
-           View::renderTemplate('Home/index.html',[
-               "name" => 'Deve',
-               "posts" => $datas
-           ]);
+            $this->post->updateData(2, $data);
+
+            $datas = $this->post->fetchAllData();
+
+            View::renderTemplate('Home/index.html',[
+                   "name" => 'Deve',
+                   "posts" => $datas
+            ]);
         }
 
-        public function editAction()
-        {
-            echo '<p> parameters: <pre>'.
-                htmlspecialchars(print_r($this->route_params, true)). '</pre></p>';
-        }
     }
