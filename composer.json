@@ -5,7 +5,8 @@
       "ext-gettext": "*",
         "php-di/php-di": "^6.0",
         "twig/extensions": "^1.5",
-      "ext-json": "*"
+      "ext-json": "*",
+        "symfony/asset": "^4.3"
     },
 
     "autoload": {

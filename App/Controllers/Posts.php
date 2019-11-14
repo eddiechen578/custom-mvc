@@ -2,19 +2,19 @@
 
 namespace App\Controllers;
 
+use Core\View;
 use Core\Controller;
-use App\Models\User;
 
 class Posts extends Controller {
         protected $user;
 
-        public function __construct(User $user)
+        public function __construct()
         {
-            $this->user = $user;
+
         }
         public function indexAction()
         {
-            echo 'success';
+            View::renderTemplate("Post/index.html");
         }
 
     }

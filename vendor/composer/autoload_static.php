@@ -25,6 +25,7 @@ class ComposerStaticInit5246882aa3829ce579382a25b4729771
             'Symfony\\Polyfill\\Php56\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Symfony\\Component\\Asset\\' => 24,
             'SuperClosure\\' => 13,
         ),
         'P' => 
@@ -75,6 +76,10 @@ class ComposerStaticInit5246882aa3829ce579382a25b4729771
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
+        ),
+        'Symfony\\Component\\Asset\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/asset',
         ),
         'SuperClosure\\' => 
         array (
