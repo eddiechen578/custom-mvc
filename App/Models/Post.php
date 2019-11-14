@@ -10,9 +10,10 @@ class Post extends Model
     function __construct()
     {
         parent::__construct(DB::DB_NAME, DB::DB_USER, DB::DB_PASSWORD, DB::DB_HOST);
-        $this->from = 'posts';
 
+        $this->from = 'posts';
     }
+
     public function fetchAllData()
     {
         $data = $this->select('title, content')

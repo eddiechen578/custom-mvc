@@ -1,0 +1,1023 @@
+[14-Nov-2019 03:35:31 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 03:38:59 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 03:39:00 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'controller App\Controllers\Users not found.' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('users/index')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line144
+[14-Nov-2019 03:39:01 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'controller App\Controllers\Users not found.' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('users/index')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line144
+[14-Nov-2019 03:40:51 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Undefined index: namespace' 
+Stack trace: '#0 C:\udemy\Core\Router.php(181): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\udemy\\Core\\R...', 181, Array)
+#1 C:\udemy\Core\Router.php(114): Core\Router->getNamespace()
+#2 C:\udemy\public\index.php(26): Core\Router->dispatch('posts/index')
+#3 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line181
+[14-Nov-2019 03:40:51 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 03:41:04 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 03:43:26 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 03:45:03 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 03:49:45 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 03:49:48 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'email not exit.' 
+Stack trace: '#0 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#1 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#2 {main}' 
+Thrown in 'C:\udemy\App\Controllers\Admin\Users.php' on line23
+[14-Nov-2019 03:53:18 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 03:53:46 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'email not exit.' 
+Stack trace: '#0 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#1 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#2 {main}' 
+Thrown in 'C:\udemy\App\Controllers\Admin\Users.php' on line23
+[14-Nov-2019 03:53:59 Europe/Berlin] Uncaught exception: 'Error' with Message: 'Wrong parameters for Exception([string $message [, long $code [, Throwable $previous = NULL]]])' 
+Stack trace: '#0 C:\udemy\App\Controllers\Admin\Users.php(27): Exception->__construct(Object(stdClass))
+#1 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#2 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#3 {main}' 
+Thrown in 'C:\udemy\App\Controllers\Admin\Users.php' on line27
+[14-Nov-2019 03:54:20 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 03:54:26 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Object of class stdClass could not be converted to string' 
+Stack trace: '#0 C:\udemy\App\Controllers\Admin\Users.php(27): Core\Error::errorHandler(4096, 'Object of class...', 'C:\\udemy\\App\\Co...', 27, Array)
+#1 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#2 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#3 {main}' 
+Thrown in 'C:\udemy\App\Controllers\Admin\Users.php' on line27
+[14-Nov-2019 03:54:57 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 03:55:28 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:00:44 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:00:54 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'password is not corrent.' 
+Stack trace: '#0 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#1 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#2 {main}' 
+Thrown in 'C:\udemy\App\Controllers\Admin\Users.php' on line29
+[14-Nov-2019 04:01:22 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:05:52 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:05:54 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'email not exit.' 
+Stack trace: '#0 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#1 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#2 {main}' 
+Thrown in 'C:\udemy\App\Controllers\Admin\Users.php' on line22
+[14-Nov-2019 04:06:03 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'password is not corrent.' 
+Stack trace: '#0 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#1 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#2 {main}' 
+Thrown in 'C:\udemy\App\Controllers\Admin\Users.php' on line28
+[14-Nov-2019 04:06:09 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'password is not corrent.' 
+Stack trace: '#0 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#1 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#2 {main}' 
+Thrown in 'C:\udemy\App\Controllers\Admin\Users.php' on line28
+[14-Nov-2019 04:26:52 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:26:53 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:27:00 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:27:00 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:27:01 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:27:01 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:27:02 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:27:02 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:27:02 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:27:03 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:27:29 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:28:09 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:28:10 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:28:10 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:28:11 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:28:17 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:28:19 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:28:29 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:30:47 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:30:48 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:30:49 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:30:49 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:30:49 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:31:15 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:31:56 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:31:57 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:31:57 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:31:58 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:32:40 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:32:58 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:32:58 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:32:59 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:32:59 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:33:09 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:33:42 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:33:43 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:33:43 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:35:18 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:35:18 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:37:12 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:37:19 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:37:19 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:37:28 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:39:21 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:39:22 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:39:22 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:39:22 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:39:23 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:39:28 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:39:44 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:42:51 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with Message: 'A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "}" ("punctuation" expected with value ":").' 
+Stack trace: '#0 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(379): Twig\TokenStream->expect(9, ':', 'A hash key must...')
+#1 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#2 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#3 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#4 C:\udemy\vendor\twig\twig\src\Parser.php(142): Twig\ExpressionParser->parseExpression()
+#5 C:\udemy\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(45): Twig\Parser->subparse(Array, true)
+#6 C:\udemy\vendor\twig\twig\src\Parser.php(185): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\udemy\vendor\twig\twig\src\Parser.php(98): Twig\Parser->subparse(NULL, false)
+#8 C:\udemy\vendor\twig\twig\src\Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\udemy\vendor\twig\twig\src\Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\udemy\vendor\twig\twig\src\Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\udemy\vendor\twig\twig\src\Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'home/index.html', NULL)
+#12 C:\udemy\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('home/index.html')
+#13 C:\udemy\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('home/index.html')
+#14 C:\udemy\Core\View.php(29): Twig\Environment->render('home/index.html', Array)
+#15 C:\udemy\App\Controllers\Home.php(10): Core\View::renderTemplate('home/index.html')
+#16 C:\udemy\Core\Router.php(127): App\Controllers\Home->indexAction()
+#17 C:\udemy\public\index.php(26): Core\Router->dispatch(NULL)
+#18 {main}' 
+Thrown in 'C:\udemy\resource\Views\Home\index.html' on line10
+[14-Nov-2019 04:42:51 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:43:15 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with Message: 'A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "}" ("punctuation" expected with value ":").' 
+Stack trace: '#0 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(379): Twig\TokenStream->expect(9, ':', 'A hash key must...')
+#1 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#2 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#3 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#4 C:\udemy\vendor\twig\twig\src\Parser.php(142): Twig\ExpressionParser->parseExpression()
+#5 C:\udemy\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(45): Twig\Parser->subparse(Array, true)
+#6 C:\udemy\vendor\twig\twig\src\Parser.php(185): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\udemy\vendor\twig\twig\src\Parser.php(98): Twig\Parser->subparse(NULL, false)
+#8 C:\udemy\vendor\twig\twig\src\Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\udemy\vendor\twig\twig\src\Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\udemy\vendor\twig\twig\src\Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\udemy\vendor\twig\twig\src\Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'home/index.html', NULL)
+#12 C:\udemy\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('home/index.html')
+#13 C:\udemy\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('home/index.html')
+#14 C:\udemy\Core\View.php(29): Twig\Environment->render('home/index.html', Array)
+#15 C:\udemy\App\Controllers\Home.php(10): Core\View::renderTemplate('home/index.html')
+#16 C:\udemy\Core\Router.php(127): App\Controllers\Home->indexAction()
+#17 C:\udemy\public\index.php(26): Core\Router->dispatch(NULL)
+#18 {main}' 
+Thrown in 'C:\udemy\resource\Views\Home\index.html' on line10
+[14-Nov-2019 04:43:15 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:43:16 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with Message: 'A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "}" ("punctuation" expected with value ":").' 
+Stack trace: '#0 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(379): Twig\TokenStream->expect(9, ':', 'A hash key must...')
+#1 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#2 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#3 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#4 C:\udemy\vendor\twig\twig\src\Parser.php(142): Twig\ExpressionParser->parseExpression()
+#5 C:\udemy\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(45): Twig\Parser->subparse(Array, true)
+#6 C:\udemy\vendor\twig\twig\src\Parser.php(185): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\udemy\vendor\twig\twig\src\Parser.php(98): Twig\Parser->subparse(NULL, false)
+#8 C:\udemy\vendor\twig\twig\src\Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\udemy\vendor\twig\twig\src\Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\udemy\vendor\twig\twig\src\Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\udemy\vendor\twig\twig\src\Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'home/index.html', NULL)
+#12 C:\udemy\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('home/index.html')
+#13 C:\udemy\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('home/index.html')
+#14 C:\udemy\Core\View.php(29): Twig\Environment->render('home/index.html', Array)
+#15 C:\udemy\App\Controllers\Home.php(10): Core\View::renderTemplate('home/index.html')
+#16 C:\udemy\Core\Router.php(127): App\Controllers\Home->indexAction()
+#17 C:\udemy\public\index.php(26): Core\Router->dispatch(NULL)
+#18 {main}' 
+Thrown in 'C:\udemy\resource\Views\Home\index.html' on line10
+[14-Nov-2019 04:43:16 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:43:16 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with Message: 'A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "}" ("punctuation" expected with value ":").' 
+Stack trace: '#0 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(379): Twig\TokenStream->expect(9, ':', 'A hash key must...')
+#1 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#2 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#3 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#4 C:\udemy\vendor\twig\twig\src\Parser.php(142): Twig\ExpressionParser->parseExpression()
+#5 C:\udemy\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(45): Twig\Parser->subparse(Array, true)
+#6 C:\udemy\vendor\twig\twig\src\Parser.php(185): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\udemy\vendor\twig\twig\src\Parser.php(98): Twig\Parser->subparse(NULL, false)
+#8 C:\udemy\vendor\twig\twig\src\Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\udemy\vendor\twig\twig\src\Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\udemy\vendor\twig\twig\src\Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\udemy\vendor\twig\twig\src\Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'home/index.html', NULL)
+#12 C:\udemy\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('home/index.html')
+#13 C:\udemy\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('home/index.html')
+#14 C:\udemy\Core\View.php(29): Twig\Environment->render('home/index.html', Array)
+#15 C:\udemy\App\Controllers\Home.php(10): Core\View::renderTemplate('home/index.html')
+#16 C:\udemy\Core\Router.php(127): App\Controllers\Home->indexAction()
+#17 C:\udemy\public\index.php(26): Core\Router->dispatch(NULL)
+#18 {main}' 
+Thrown in 'C:\udemy\resource\Views\Home\index.html' on line10
+[14-Nov-2019 04:43:16 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:43:16 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with Message: 'A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "}" ("punctuation" expected with value ":").' 
+Stack trace: '#0 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(379): Twig\TokenStream->expect(9, ':', 'A hash key must...')
+#1 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#2 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#3 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#4 C:\udemy\vendor\twig\twig\src\Parser.php(142): Twig\ExpressionParser->parseExpression()
+#5 C:\udemy\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(45): Twig\Parser->subparse(Array, true)
+#6 C:\udemy\vendor\twig\twig\src\Parser.php(185): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\udemy\vendor\twig\twig\src\Parser.php(98): Twig\Parser->subparse(NULL, false)
+#8 C:\udemy\vendor\twig\twig\src\Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\udemy\vendor\twig\twig\src\Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\udemy\vendor\twig\twig\src\Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\udemy\vendor\twig\twig\src\Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'home/index.html', NULL)
+#12 C:\udemy\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('home/index.html')
+#13 C:\udemy\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('home/index.html')
+#14 C:\udemy\Core\View.php(29): Twig\Environment->render('home/index.html', Array)
+#15 C:\udemy\App\Controllers\Home.php(10): Core\View::renderTemplate('home/index.html')
+#16 C:\udemy\Core\Router.php(127): App\Controllers\Home->indexAction()
+#17 C:\udemy\public\index.php(26): Core\Router->dispatch(NULL)
+#18 {main}' 
+Thrown in 'C:\udemy\resource\Views\Home\index.html' on line10
+[14-Nov-2019 04:43:16 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:43:17 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with Message: 'A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "}" ("punctuation" expected with value ":").' 
+Stack trace: '#0 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(379): Twig\TokenStream->expect(9, ':', 'A hash key must...')
+#1 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#2 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#3 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#4 C:\udemy\vendor\twig\twig\src\Parser.php(142): Twig\ExpressionParser->parseExpression()
+#5 C:\udemy\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(45): Twig\Parser->subparse(Array, true)
+#6 C:\udemy\vendor\twig\twig\src\Parser.php(185): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\udemy\vendor\twig\twig\src\Parser.php(98): Twig\Parser->subparse(NULL, false)
+#8 C:\udemy\vendor\twig\twig\src\Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\udemy\vendor\twig\twig\src\Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\udemy\vendor\twig\twig\src\Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\udemy\vendor\twig\twig\src\Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'home/index.html', NULL)
+#12 C:\udemy\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('home/index.html')
+#13 C:\udemy\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('home/index.html')
+#14 C:\udemy\Core\View.php(29): Twig\Environment->render('home/index.html', Array)
+#15 C:\udemy\App\Controllers\Home.php(10): Core\View::renderTemplate('home/index.html')
+#16 C:\udemy\Core\Router.php(127): App\Controllers\Home->indexAction()
+#17 C:\udemy\public\index.php(26): Core\Router->dispatch(NULL)
+#18 {main}' 
+Thrown in 'C:\udemy\resource\Views\Home\index.html' on line10
+[14-Nov-2019 04:43:17 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:43:17 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with Message: 'A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "}" ("punctuation" expected with value ":").' 
+Stack trace: '#0 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(379): Twig\TokenStream->expect(9, ':', 'A hash key must...')
+#1 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#2 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#3 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#4 C:\udemy\vendor\twig\twig\src\Parser.php(142): Twig\ExpressionParser->parseExpression()
+#5 C:\udemy\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(45): Twig\Parser->subparse(Array, true)
+#6 C:\udemy\vendor\twig\twig\src\Parser.php(185): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\udemy\vendor\twig\twig\src\Parser.php(98): Twig\Parser->subparse(NULL, false)
+#8 C:\udemy\vendor\twig\twig\src\Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\udemy\vendor\twig\twig\src\Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\udemy\vendor\twig\twig\src\Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\udemy\vendor\twig\twig\src\Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'home/index.html', NULL)
+#12 C:\udemy\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('home/index.html')
+#13 C:\udemy\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('home/index.html')
+#14 C:\udemy\Core\View.php(29): Twig\Environment->render('home/index.html', Array)
+#15 C:\udemy\App\Controllers\Home.php(10): Core\View::renderTemplate('home/index.html')
+#16 C:\udemy\Core\Router.php(127): App\Controllers\Home->indexAction()
+#17 C:\udemy\public\index.php(26): Core\Router->dispatch(NULL)
+#18 {main}' 
+Thrown in 'C:\udemy\resource\Views\Home\index.html' on line10
+[14-Nov-2019 04:43:17 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:43:17 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with Message: 'A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "}" ("punctuation" expected with value ":").' 
+Stack trace: '#0 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(379): Twig\TokenStream->expect(9, ':', 'A hash key must...')
+#1 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#2 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#3 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#4 C:\udemy\vendor\twig\twig\src\Parser.php(142): Twig\ExpressionParser->parseExpression()
+#5 C:\udemy\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(45): Twig\Parser->subparse(Array, true)
+#6 C:\udemy\vendor\twig\twig\src\Parser.php(185): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\udemy\vendor\twig\twig\src\Parser.php(98): Twig\Parser->subparse(NULL, false)
+#8 C:\udemy\vendor\twig\twig\src\Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\udemy\vendor\twig\twig\src\Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\udemy\vendor\twig\twig\src\Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\udemy\vendor\twig\twig\src\Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'home/index.html', NULL)
+#12 C:\udemy\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('home/index.html')
+#13 C:\udemy\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('home/index.html')
+#14 C:\udemy\Core\View.php(29): Twig\Environment->render('home/index.html', Array)
+#15 C:\udemy\App\Controllers\Home.php(10): Core\View::renderTemplate('home/index.html')
+#16 C:\udemy\Core\Router.php(127): App\Controllers\Home->indexAction()
+#17 C:\udemy\public\index.php(26): Core\Router->dispatch(NULL)
+#18 {main}' 
+Thrown in 'C:\udemy\resource\Views\Home\index.html' on line10
+[14-Nov-2019 04:43:17 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:43:17 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with Message: 'A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "}" ("punctuation" expected with value ":").' 
+Stack trace: '#0 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(379): Twig\TokenStream->expect(9, ':', 'A hash key must...')
+#1 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#2 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#3 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#4 C:\udemy\vendor\twig\twig\src\Parser.php(142): Twig\ExpressionParser->parseExpression()
+#5 C:\udemy\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(45): Twig\Parser->subparse(Array, true)
+#6 C:\udemy\vendor\twig\twig\src\Parser.php(185): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\udemy\vendor\twig\twig\src\Parser.php(98): Twig\Parser->subparse(NULL, false)
+#8 C:\udemy\vendor\twig\twig\src\Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\udemy\vendor\twig\twig\src\Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\udemy\vendor\twig\twig\src\Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\udemy\vendor\twig\twig\src\Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'home/index.html', NULL)
+#12 C:\udemy\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('home/index.html')
+#13 C:\udemy\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('home/index.html')
+#14 C:\udemy\Core\View.php(29): Twig\Environment->render('home/index.html', Array)
+#15 C:\udemy\App\Controllers\Home.php(10): Core\View::renderTemplate('home/index.html')
+#16 C:\udemy\Core\Router.php(127): App\Controllers\Home->indexAction()
+#17 C:\udemy\public\index.php(26): Core\Router->dispatch(NULL)
+#18 {main}' 
+Thrown in 'C:\udemy\resource\Views\Home\index.html' on line10
+[14-Nov-2019 04:43:17 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:43:18 Europe/Berlin] Uncaught exception: 'Twig\Error\SyntaxError' with Message: 'A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "}" ("punctuation" expected with value ":").' 
+Stack trace: '#0 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(379): Twig\TokenStream->expect(9, ':', 'A hash key must...')
+#1 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(281): Twig\ExpressionParser->parseHashExpression()
+#2 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#3 C:\udemy\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#4 C:\udemy\vendor\twig\twig\src\Parser.php(142): Twig\ExpressionParser->parseExpression()
+#5 C:\udemy\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(45): Twig\Parser->subparse(Array, true)
+#6 C:\udemy\vendor\twig\twig\src\Parser.php(185): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\udemy\vendor\twig\twig\src\Parser.php(98): Twig\Parser->subparse(NULL, false)
+#8 C:\udemy\vendor\twig\twig\src\Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\udemy\vendor\twig\twig\src\Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\udemy\vendor\twig\twig\src\Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\udemy\vendor\twig\twig\src\Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'home/index.html', NULL)
+#12 C:\udemy\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('home/index.html')
+#13 C:\udemy\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('home/index.html')
+#14 C:\udemy\Core\View.php(29): Twig\Environment->render('home/index.html', Array)
+#15 C:\udemy\App\Controllers\Home.php(10): Core\View::renderTemplate('home/index.html')
+#16 C:\udemy\Core\Router.php(127): App\Controllers\Home->indexAction()
+#17 C:\udemy\public\index.php(26): Core\Router->dispatch(NULL)
+#18 {main}' 
+Thrown in 'C:\udemy\resource\Views\Home\index.html' on line10
+[14-Nov-2019 04:43:18 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:44:13 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:50:01 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:50:06 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:51:47 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:51:55 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:53:04 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:56:02 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:57:54 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 04:59:52 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:00:50 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:02:17 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:02:21 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'email is not exit.' 
+Stack trace: '#0 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#1 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#2 {main}' 
+Thrown in 'C:\udemy\App\Controllers\Admin\Users.php' on line22
+[14-Nov-2019 05:02:45 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:03:12 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:07:25 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:07:28 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(28): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:07:29 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(28): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:07:29 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(28): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:07:32 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(28): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:07:32 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(28): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:07:35 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:07:37 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(28): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:07:37 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(28): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:08:17 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:08:19 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(28): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:09:10 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:09:11 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:10:18 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:10:19 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:10:19 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:10:22 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:10:23 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:11:29 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:11:31 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:12:03 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:12:04 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:12:06 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:12:07 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:13:06 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:13:16 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:13:18 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:13:25 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:13:27 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:13:27 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:13:42 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:13:43 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:13:59 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:14:00 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:15:05 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:15:06 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:16:44 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:16:45 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:17:47 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:17:48 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:17:56 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:17:57 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:18:24 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:18:24 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:18:36 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:18:40 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:20:10 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:20:11 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:21:03 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:21:05 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:22:46 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:22:49 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:22:50 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:23:07 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:23:08 Europe/Berlin] Uncaught exception: 'ErrorException' with Message: 'Trying to get property 'password' of non-object' 
+Stack trace: '#0 C:\udemy\App\Models\User.php(21): Core\Error::errorHandler(8, 'Trying to get p...', 'C:\\udemy\\App\\Mo...', 21, Array)
+#1 C:\udemy\App\Controllers\Admin\Users.php(27): App\Models\User->ableLogin(Array, '')
+#2 C:\udemy\Core\Router.php(127): App\Controllers\Admin\Users->indexAction()
+#3 C:\udemy\public\index.php(26): Core\Router->dispatch('admin/users/ind...')
+#4 {main}' 
+Thrown in 'C:\udemy\App\Models\User.php' on line21
+[14-Nov-2019 05:23:54 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:24:04 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:24:20 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:24:32 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:29:36 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:32:59 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:33:11 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:33:17 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'controller App\Controllers\Post not found.' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('post/index')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line144
+[14-Nov-2019 05:33:17 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:33:27 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:33:29 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:33:32 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:33:33 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:36:02 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:39:03 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:40:38 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:40:44 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:41:42 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:41:46 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:41:47 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:42:05 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147
+[14-Nov-2019 05:42:07 Europe/Berlin] Uncaught exception: 'Exception' with Message: 'not match route' 
+Stack trace: '#0 C:\udemy\public\index.php(26): Core\Router->dispatch('favicon.ico')
+#1 {main}' 
+Thrown in 'C:\udemy\Core\Router.php' on line147

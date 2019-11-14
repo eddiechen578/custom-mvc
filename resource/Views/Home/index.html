@@ -1,15 +1,95 @@
 {% extends "Base/layout.html"%}
 
-{% block title %}Home{% endblock %}
 
 {% block body%}
-<h1>Welcome {{name}}</h1>
-<p>this is view</p>
-<ul>
-    {% for post in posts %}
-        <h2>{{post.title}}</h2>
-         <p>{{post.content}}</p>
-    {% endfor %}
-</ul>
+
+<div class="row">
+    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+            <div class="card-body">
+                <h5 class="card-title text-center">${title}</h5>
+                <form class="form-signin">
+                    <div class="form-label-group">
+                        <div class="invalid-feedback d-block">
+                                ${emailMsg}
+                        </div>
+                        <input type="email" id="inputEmail" v-model="email" class="form-control" placeholder="Email address" required >
+                        <label for="inputEmail">Email address</label>
+                    </div>
+
+                    <div class="form-label-group">
+                        <div class="invalid-feedback d-block">
+                            ${passwordMsg}
+                        </div>
+                        <input type="password" id="inputPassword" v-model="password" class="form-control" placeholder="Password" required>
+                        <label for="inputPassword">Password</label>
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block text-uppercase" @click.prevent="login" type="submit">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 {% endblock %}
+
+{% block javascript%}
+<script>
+
+     var app = new Vue({
+         delimiters: ['${', '}'],
+         el:'#app',
+         data:{
+             emailMsg:'',
+             passwordMsg:'',
+             email:'',
+             password:'',
+             endpoint:'/admin/users/index',
+             title:'LOGIN'
+         },
+         watch:{
+             email: function () {
+                 var isText = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+$/;
+
+                 if(!isText.test(this.email)){
+                     this.emailMsg = '不可為空或特殊字元.';
+                 }else{
+                     this.emailMsg = '';
+                 }
+             },
+             password: function () {
+                 var isText = /^[a-zA-Z0-9]+$/;
+
+                 if(!isText.test(this.password)){
+                     this.passwordMsg = '不可為空或特殊字元.';
+                 }else{
+                     this.passwordMsg = '';
+                 }
+             }
+         },
+         methods:{
+             login(){
+                var params = new URLSearchParams();
+                params.append('email', this.email);
+                params.append('password', this.password);
+                axios.post(this.endpoint, params)
+                .then(res=>{
+                     var data = JSON.parse(JSON.stringify(res.data));
+
+                     if(res.data.code == 401){
+                         this.emailMsg = res.data.msg;
+                     }else if(res.data.code == 403){
+                         this.emailMsg = res.data.msg;
+                     }else if(res.data.code == 402){
+                         this.passwordMsg = res.data.msg;
+                     }else{
+                         window.location.href = res.data.url;
+                     }
+                })
+             }
+         }
+     })
+</script>
+{% endblock %}
+
 

@@ -3,7 +3,9 @@
         "twig/twig": "^2.0",
         "phpmailer/phpmailer": "~5.2",
       "ext-gettext": "*",
-        "php-di/php-di": "^6.0"
+        "php-di/php-di": "^6.0",
+        "twig/extensions": "^1.5",
+      "ext-json": "*"
     },
 
     "autoload": {

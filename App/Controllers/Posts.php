@@ -2,33 +2,19 @@
 
 namespace App\Controllers;
 
-use App\Controllers\Admin\Users;
-use Core\View;
 use Core\Controller;
-use App\Models\Post;
+use App\Models\User;
 
 class Posts extends Controller {
-        protected $post;
+        protected $user;
 
-        public function __construct(Post $post)
+        public function __construct(User $user)
         {
-            $this->post = $post;
+            $this->user = $user;
         }
         public function indexAction()
         {
-            $data = [
-                  'title' => 'update *1',
-                  'content' => 'again again'
-            ];
-
-            $this->post->updateData(2, $data);
-
-            $datas = $this->post->fetchAllData();
-
-            View::renderTemplate('Home/index.html',[
-                   "name" => 'Deve',
-                   "posts" => $datas
-            ]);
+            echo 'success';
         }
 
     }
