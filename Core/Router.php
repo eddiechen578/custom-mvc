@@ -2,6 +2,9 @@
 
 namespace Core;
 
+
+
+
 /**
  * Router
  *
@@ -121,7 +124,7 @@ class Router
             {
                 $action = $this->params['action'];
                 $action = $this->convertToCamelCase($action);
-                $action = $action.'Action';
+//                $action = $action.'Action';
 
                 $containerBuilder = new \DI\ContainerBuilder();
                 $containerBuilder->useAutowiring(true);

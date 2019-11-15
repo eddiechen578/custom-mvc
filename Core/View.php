@@ -3,6 +3,8 @@
 
 namespace Core;
 
+use Symfony\Component\Asset\Package;
+use Symfony\Component\Asset\VersionStrategy\EmptyVersionStrategy;
 
 class View
 {
@@ -21,10 +23,12 @@ class View
 
     public static function renderTemplate($template, $args = [])
     {
+
         static $twig = null;
-        if($twig === null){
-            $loader = new \Twig\Loader\FilesystemLoader(dirname(__DIR__) .'/resource/Views');
+        if($twig === null) {
+            $loader = new \Twig\Loader\FilesystemLoader(dirname(__DIR__) . '/resource/Views');
             $twig = new \Twig\Environment($loader);
+            $twig->addGlobal('session', $_SESSION);
         }
         echo $twig->render($template, $args);
     }

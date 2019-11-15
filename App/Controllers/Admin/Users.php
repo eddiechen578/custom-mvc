@@ -19,19 +19,20 @@ class Users extends \Core\Controller
             $password = $_POST['password'];
 
             if(empty($email) || empty($password)){
-                echo json_encode(["msg" => 'input is required.', "code" => 401]);
+                echo json_encode(["msg" => gettext("input is required."), "code" => 401]);
                 exit;
             }
 
             if(! $this->user->verify($email)){
-                echo json_encode(["msg" => 'email is not exit', "code" => 403]);
+                echo json_encode(["msg" => gettext('email is not exit.'), "code" => 403]);
                 exit;
             }
 
             $user = $this->user->find($email);
 
             if(!$this->user->ableLogin($user, $password)){
-                echo json_encode(["msg" => 'password is not corrent.', "code" => 402]);
+                $_SESSION['auth'] = $user->email;
+                echo json_encode(["msg" => gettext('password is not corrent.'), "code" => 402]);
                 exit;
             }
         }
